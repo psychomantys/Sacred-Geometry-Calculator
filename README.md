@@ -1,6 +1,5 @@
-epic-rpg-editor cordova [![Build Status](https://travis-ci.org/psychomantys/epic-rpg-editor.png)](https://travis-ci.org/psychomantys/epic-rpg-editor)
+Sacred Geometry Calculator [![Build Status](https://travis-ci.org/psychomantys/Sacred-Geometry-Calculator.png)](https://travis-ci.org/psychomantys/Sacred-Geometry-Calculator)
 =========================================================
 
-Um editor de fichas de RPG para varios sistemas.
 
 
