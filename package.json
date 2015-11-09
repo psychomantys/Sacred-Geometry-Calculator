@@ -1,0 +1,67 @@
+{
+  "name": "epic-rpg-editor",
+  "description": "Um editor de fichas de RPG para varios sistemas",
+  "version": "0.0.1",
+  "homepage": "https://psychomantys.github.io/epic-rpg-editor",
+  "main": "www/index.html",
+  "scripts": {
+    "pretest": "npm install",
+    "test": "grunt test",
+    "prepublish": "grunt get_deps",
+    "prestart": "npm install",
+    "start": "grunt debug:android"
+  },
+  "author": "Epic RPG Editor Team",
+  "keywords": [
+    "cordova"
+  ],
+  "devDependencies": {
+    "cordova": "*",
+    "temporary": "*",
+    "grunt-shell": "*",
+    "grunt": "*",
+    "grunt-cli": "*",
+    "grunt-contrib-jasmine": "*",
+    "grunt-template-jasmine-requirejs": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-contrib-requirejs": "*",
+    "http-server": "^0.6.1",
+    "grunt-linter": "*",
+    "volo": "*",
+    "grunt-volo": "*"
+  },
+  "contributors": [
+    {
+      "name": "Psycho Mantys",
+      "email": "psycho.mantys@gmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/psychomantys/epic-rpg-editor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/psychomantys/epic-rpg-editor/issues"
+  },
+  "licenses": [
+    {
+      "type": "GPL",
+      "url": "https://psychomantys.github.com/epic-rpg-editor/LICENSE"
+    }
+  ],
+  "volo": {
+    "baseDir": "www/thirdparty",
+    "dependencies": {
+      "yaap": "github:warmuuh/yaap/master",
+      "jquery": "github:jquery/jquery/2.1.1",
+      "require": "github:jrburke/requirejs/2.1.10",
+      "bootstrap": "github:twbs/bootstrap/master",
+      "handlebars": "http://builds.handlebarsjs.com.s3.amazonaws.com/handlebars-v1.3.0.js",
+      "underscore": "github:jashkenas/underscore/1.7.0",
+      "backbone": "github:jashkenas/backbone/1.1.2",
+      "bootstrap-combobox": "github:danielfarrell/bootstrap-combobox/1.1.6",
+      "FileSaver": "github:eligrey/FileSaver.js/master"
+    }
+  }
+}

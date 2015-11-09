@@ -1,0 +1,39 @@
+# Compiled Object files
+*.slo
+*.lo
+*.o
+
+# Compiled Dynamic libraries
+*.so
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+
+# Compiled Bins.
+a.out
+
+# Latex
+*.log
+*.aux
+*.nav
+*.out
+*.snm
+*.toc
+
+# Backup files
+*~
+.*.sw*
+.backups
+
+# svn
+.svn
+
+# npm
+node_modules
+
+# cordova
+.cordova
+platforms
+
