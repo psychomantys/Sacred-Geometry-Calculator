@@ -1,8 +1,8 @@
 {
-  "name": "epic-rpg-editor",
-  "description": "Um editor de fichas de RPG para varios sistemas",
+  "name": "Sacred-Geometry-Calculator",
+  "description": "Sacred Geometry Calculator",
   "version": "0.0.1",
-  "homepage": "https://psychomantys.github.io/epic-rpg-editor",
+  "homepage": "https://psychomantys.github.io/Sacred-Geometry-Calculator",
   "main": "www/index.html",
   "scripts": {
     "pretest": "npm install",
@@ -11,7 +11,7 @@
     "prestart": "npm install",
     "start": "grunt debug:android"
   },
-  "author": "Epic RPG Editor Team",
+  "author": "Psycho Mantys",
   "keywords": [
     "cordova"
   ],
@@ -39,15 +39,15 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/psychomantys/epic-rpg-editor.git"
+    "url": "git://github.com/psychomantys/Sacred-Geometry-Calculator.git"
   },
   "bugs": {
-    "url": "https://github.com/psychomantys/epic-rpg-editor/issues"
+    "url": "https://github.com/psychomantys/Sacred-Geometry-Calculator/issues"
   },
   "licenses": [
     {
       "type": "GPL",
-      "url": "https://psychomantys.github.com/epic-rpg-editor/LICENSE"
+      "url": "https://psychomantys.github.com/Sacred-Geometry-Calculator/LICENSE"
     }
   ],
   "volo": {
