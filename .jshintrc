@@ -10,5 +10,8 @@
 	"boss": true,
 	"devel": true,
 	"eqnull": true,
-	"browser": true
+	"eqeqeq": false,
+	"browser": true,
+	"strict": false,
+	"globalstrict": true
 }
