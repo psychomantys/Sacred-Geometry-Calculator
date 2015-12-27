@@ -61,7 +61,7 @@ function( $, Sacred, Expr ) {
 
 
 		$('#go').on('click', function(){
-			var dices=$('#input_seq').val().replace(/ +/g,' ').replace(/ +$/,'').replace(/^ */,'').split(' ');
+			var dices=$('#input_seq').val().replace(/[ ,]+/g,' ').replace(/ +$/,'').replace(/^ */,'').split(' ');
 			var spell_lvl=$('#spell_lvl').val();
 			for(var x=0 ; x<dices.length ; ++x ){
 				dices[x]=new Expr([ dices[x] ]);
@@ -87,7 +87,21 @@ function( $, Sacred, Expr ) {
 				ret=SC.search_trees(dices, [101, 103, 107], dices.length);
 			}
 			if( ret ){
-				$('#output').text(ret.to_str());
+				$('#output').addClass('alert-info');
+				$('#output').removeClass('alert-danger');
+				$('#output p').html(
+					"<span class='glyphicon glyphicon-hand-right glyphicon-align-left' aria-hidden='true'></span>"+
+					"<span class='sr-only'>Solution:</span>"+
+					" "+ret.to_str()+"="+ret.value
+				);
+			}else{
+				$('#output').addClass('alert-danger');
+				$('#output').removeClass('alert-info');
+				$('#output p').html(
+					"<span class='glyphicon glyphicon-alert glyphicon-align-left' aria-hidden='true'></span>"+
+					"<span class='sr-only'>Error:</span>"+
+					" Solution not found.... :("
+				);
 			}
 		});
 
